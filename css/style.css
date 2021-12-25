@@ -61,6 +61,15 @@ textarea:valid~label{
     top:-35px;
     font-size: 14px;
 }
+input[type="email"]:invalid{
+    background-color: rgb(207, 47, 47);
+    color: #fff;
+}
+input[type="email"]:focus~label,
+input[type="email"]:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
 
 
 
